@@ -1,7 +1,7 @@
 package com.mlamp.design.pattern.behavior.mvc;
 
 /**
- * Create view layer
+ * create view layer
  */
 public class StudentView {
     public void printStudentDetails(String studentName, String studentRollNo){

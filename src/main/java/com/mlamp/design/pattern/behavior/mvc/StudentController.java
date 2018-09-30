@@ -1,7 +1,7 @@
 package com.mlamp.design.pattern.behavior.mvc;
 
 /**
- * Create Controller Layer
+ * Create Controller.
  */
 public class StudentController {
     private Student model;
