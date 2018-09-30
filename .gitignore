@@ -1,5 +1,6 @@
 *.xml
 pattern.iml
+core.iml
 target/
 out/
 build/

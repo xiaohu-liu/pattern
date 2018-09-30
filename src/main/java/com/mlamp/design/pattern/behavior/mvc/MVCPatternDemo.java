@@ -2,14 +2,12 @@ package com.mlamp.design.pattern.behavior.mvc;
 
 /**
  * Use the StudentController methods to demonstrate MVC design pattern usage.
- * <p>
- * MVCPatternDemo.java
  */
 public class MVCPatternDemo {
     public static void main(String[] args) {
 
         //fetch student record based on his roll no from the database
-        Student model = retriveStudentFromDatabase();
+        Student model  = retriveStudentFromDatabase();
 
         //Create a view : to write student details on console
         StudentView view = new StudentView();
@@ -24,7 +22,7 @@ public class MVCPatternDemo {
         controller.updateView();
     }
 
-    private static Student retriveStudentFromDatabase() {
+    private static Student retriveStudentFromDatabase(){
         Student student = new Student();
         student.setName("Robert");
         student.setRollNo("10");

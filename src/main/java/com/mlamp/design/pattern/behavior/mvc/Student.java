@@ -1,7 +1,7 @@
 package com.mlamp.design.pattern.behavior.mvc;
 
 /**
- * Create Model layer
+ * create model layer
  */
 public class Student {
     private String rollNo;
